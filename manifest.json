@@ -1,0 +1,15 @@
+{
+  "name": "数据结构研习社 · 考研数据结构刷题平台",
+  "short_name": "数据结构研习社",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f5f9fd",
+  "theme_color": "#4a90d9",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%234a90d9'/%3E%3Ctext x='96' y='126' font-size='72' text-anchor='middle' fill='white' font-family='monospace' font-weight='bold'%3E%7B%7D%3C/text%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
