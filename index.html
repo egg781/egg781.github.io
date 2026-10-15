@@ -209,11 +209,6 @@ sub,sup{font-size:11px;}
   border:1px solid #e7f0f9;border-top:3px solid var(--blue);
   padding:20px 18px 18px;margin-bottom:16px;overflow-x:auto;
 }
-.q-stem .q-no-water{
-  position:absolute;top:10px;right:14px;font-size:34px;font-weight:800;
-  color:#eef5fc;font-family:"SF Mono",Consolas,monospace;line-height:1;
-  pointer-events:none;user-select:none;
-}
 
 /* 选项 */
 .opt{
@@ -810,7 +805,7 @@ function drawQuestion(){
         <button class="fav-btn ${fav?'on':''}" id="favBtn" title="收藏本题">${fav?'★':'☆'}</button>
       </div>
     </div>
-    <div class="q-stem" id="qStem"><span class="q-no-water">Q${String(q.no).padStart(2,'0')}</span>${q.stem}</div>
+    <div class="q-stem" id="qStem">${q.stem}</div>
     ${isChoice ? `
       <div id="optBox">
         ${q.options.map((o,idx)=>`
